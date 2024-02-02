@@ -30,7 +30,7 @@ if(err.name === "TokenExpiredError"){
     err = new Errorhandler(message,400);
 }
 
-return res.status(statuscode).json({
+return res.status(err.statuscode).json({
     success:false,
     message: err.message,
 })
