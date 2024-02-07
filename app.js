@@ -40,4 +40,3 @@ app.use(errorMiddleware);
 
 export default app;
 
-//need to fix error that incounters in app.js backend is now almost comppleted its time to design frontend using react.js....!!!!
