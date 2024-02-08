@@ -9,3 +9,6 @@ export const dbConnection=()=>{
         console.log(`Some Errors occured while connecting to database: ${err}`);
     })
 };
+
+
+//backend is done 1:20 start again to check errors and mistakes...
