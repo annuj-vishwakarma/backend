@@ -19,7 +19,7 @@ export const register = catchAsyncErrors(async (req, res, next) => {
     password,
     role,
   });
-  sendToken(user, 201, res, "User Registered!");
+  sendToken(user,201,res,"User Registered!");
 });
 
 export const login = catchAsyncErrors(async (req, res, next) => {
