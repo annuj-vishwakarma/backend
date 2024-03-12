@@ -11,4 +11,3 @@ export const dbConnection=()=>{
 };
 
 
-//backend is done 1:20 start again to check errors and mistakes...
