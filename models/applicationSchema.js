@@ -62,3 +62,5 @@ const applicationSchema = new mongoose.Schema({
 });
 
 export const Application = mongoose.model("Application", applicationSchema);
+
+//in the mongodb database the name should be applications
