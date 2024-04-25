@@ -9,6 +9,7 @@ export const getAllJobs = catchAsyncErrors(async (req, res, next) => {
     jobs,
   });
 });
+//cmnt
 
 export const postJob = catchAsyncErrors(async (req, res, next) => {
   const { role } = req.user;
